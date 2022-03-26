@@ -15,7 +15,6 @@ module.exports = {
     'arrow-parens': [ 'error', 'always' ],
     'arrow-spacing': [ 'error', { before: true, after: true } ],
     'brace-style': [ 'error', '1tbs' ],
-    camelcase: [ 'error', { properties: 'never' } ],
     'comma-dangle': [ 'error', 'always-multiline' ],
     'comma-spacing': 'error',
     'comma-style': 'error',
