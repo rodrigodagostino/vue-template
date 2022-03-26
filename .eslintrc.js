@@ -6,8 +6,7 @@ module.exports = {
   },
   extends: [ 'eslint:recommended', 'plugin:vue/vue3-essential' ],
   parserOptions: {
-    parser: '@babel/eslint-parser',
-    ecmaVersion: 2018,
+    ecmaVersion: 2020,
     requireConfigFile: false,
   },
   rules: {
