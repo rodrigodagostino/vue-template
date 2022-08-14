@@ -9,16 +9,16 @@
     "lint:fix": "eslint --ext .ts,.js,.vue ./ --fix"
   },
   "dependencies": {
-    "vue": "3.2.31"
+    "vue": "3.2.37"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "2.2.0",
-    "eslint": "8.9.0",
+    "@vitejs/plugin-vue": "3.0.3",
+    "eslint": "8.22.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-vue": "8.4.1",
-    "prettier": "2.6.2",
-    "sass": "1.49.9",
-    "vite": "2.8.1"
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-vue": "9.3.0",
+    "prettier": "2.7.1",
+    "sass": "1.54.4",
+    "vite": "3.0.7"
   }
 }
