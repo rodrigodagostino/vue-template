@@ -4,10 +4,10 @@ module.exports = {
     node: true,
     'vue/setup-compiler-macros': true,
   },
-  plugins: ['prettier'],
   extends: [
-    'eslint:recommended',
     'plugin:vue/vue3-recommended',
+    'eslint:recommended',
+    '@vue/eslint-config-prettier/skip-formatting',
     'plugin:prettier/recommended',
   ],
   parserOptions: {
@@ -15,7 +15,6 @@ module.exports = {
     requireConfigFile: false,
   },
   rules: {
-    'prettier/prettier': 'error',
     'vue/html-indent': ['error', 2],
   },
 }
