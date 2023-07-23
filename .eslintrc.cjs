@@ -1,9 +1,8 @@
+/* eslint-env node */
+require('@rushstack/eslint-patch/modern-module-resolution');
+
 module.exports = {
   root: true,
-  env: {
-    node: true,
-    'vue/setup-compiler-macros': true,
-  },
   extends: [
     'plugin:vue/vue3-recommended',
     'eslint:recommended',
@@ -11,10 +10,6 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   parserOptions: {
-    ecmaVersion: 2020,
-    requireConfigFile: false,
-  },
-  rules: {
-    'vue/html-indent': ['error', 2],
+    ecmaVersion: 'latest',
   },
 };
